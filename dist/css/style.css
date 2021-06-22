@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Tangerine', cursive;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+body {
+  scrollbar-width: none;
+}
+
+.menu-bar {
+  min-height: 8%;
+  background: #333;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-link {
+  color: whitesmoke;
+}
+
+.nav-link:hover {
+  color: #E4D8B4;
+}
+
+.active {
+  color: #E4D8B4 !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.navbar-toggler i {
+  color: whitesmoke;
+}
+
+.banner {
+  min-height: 50vh;
+  margin: 200px auto;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.info {
+  margin: 14% auto;
+}
+
+.info h1 {
+  font-size: 3rem;
+}
+
+.info a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  padding: .2em 1em;
+  margin: 5% 10px;
+  display: inline-block;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #333 !important;
+  border: 1px solid #333;
+  background: transparent !important;
+}
+
+.info a:hover {
+  background: #333 !important;
+  color: whitesmoke !important;
+  border: none;
+}
+
+.footer-widget {
+  min-height: 10% !important;
+  background: -webkit-gradient(linear, left top, right top, from(whitesmoke), to(#E4D8B4));
+  background: linear-gradient(to right, whitesmoke, #E4D8B4);
+  padding: 1em;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: 1px solid #333;
+}
+
+.footer-widget i {
+  font-size: 25px;
+}
+
+.footer-text {
+  padding-left: 25px;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons p {
+  margin-top: .5em;
+}
+
+.social-icons i {
+  padding: 0 .5em;
+}
+
+@media (max-width: 768px) {
+  .footer-widget {
+    border-bottom: 1px solid #333;
+  }
+}
+/*# sourceMappingURL=style.css.map */
